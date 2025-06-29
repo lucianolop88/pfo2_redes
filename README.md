@@ -11,14 +11,14 @@
 1. Crear una carpeta nueva y abrirla desde VSC
 
 2. Clonar el repositorio (desde la terminal de VSC):
-git clone https://github.com/lucianolop88/pfo2_redes
-cd pfo2_redes
+  git clone https://github.com/lucianolop88/pfo2_redes
+  cd pfo2_redes
 
 3. Instalar dependencias (terminal):
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 4. Ejecutar el servidor:
-python servidor.py
+  python servidor.py
 
 El servidor quedará iniciado en http://127.0.0.1:5000
 
@@ -29,7 +29,7 @@ El servidor quedará iniciado en http://127.0.0.1:5000
 2. Abrir una segunda terminal en VSC
 
 3. Ejecutar el cliente:
-python cliente.py
+  python cliente.py
 
 Se mostrará un menú en dicha terminal donde se podra registrarse, iniciar sesión, ver las tareas y salir.
 
